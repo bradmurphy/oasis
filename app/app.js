@@ -1,6 +1,7 @@
 'use strict';
 
 // initialize app
+
 var app = angular.module('oasisApp', ['ngRoute']);
 
 // router
