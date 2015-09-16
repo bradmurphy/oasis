@@ -1,10 +1,22 @@
 'use strict';
 
-// require config and app
+/* Require all components in order to initialize application
+ * and set up the single page app.
+ */
+
+// config and app
 var config = require('./config');
 var app = require('./app');
 
-// load images
+// router
+var router = require('./router');
 
+// controllers
+var HomeCtrl = require('./controllers/HomeCtrl');
+var AboutCtrl = require('./controllers/AboutCtrl');
+var ContactCtrl = require('./controllers/ContactCtrl');
+var MapCtrl = require('./controllers/MapCtrl');
+
+// load images
 var Loader = require('./core/Loader');
 var loader = new Loader(config.manifest);
