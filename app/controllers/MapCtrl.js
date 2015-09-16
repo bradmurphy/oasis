@@ -11,8 +11,6 @@ app.controller('MapCtrl', ['$scope', function($scope) {
   $scope.data = config.data;
   $scope.styledMap = false;
 
-  console.log($scope.data.lat);
-
   this.latLng = new google.maps.LatLng($scope.data.lat, $scope.data.lng);
   this.map = document.querySelector('#map');
 
