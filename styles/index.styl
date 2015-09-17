@@ -2,17 +2,23 @@
 @import 'vendor/normalize.css'
 @import 'base'
 
-header 
-  float left
+.wrap
+  display flex
+  flex-flow row wrap
+  align-content flex-start
   width 100%
-  height 100px
+  height 100%
+  overflow auto
 
-section 
-  float left
-  width 100%
-  height 500px
+  header
+    flex 1 100%
+    height 10%
 
-footer 
-  float left
-  width 100%
-  height 400px
+  section
+    flex 1 100%
+    height 60%
+    overflow auto
+
+  footer
+    flex 1 100%
+    height 30%

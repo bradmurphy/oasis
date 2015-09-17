@@ -12,8 +12,11 @@
   </head>
   <body>
     
-    <!-- header -->
-    <header>
+    <!-- page wrap -->
+    <div class="wrap">
+      
+      <!-- header -->
+      <header>
 
       <nav>
         <ul>
@@ -26,16 +29,19 @@
         </ul>
       </nav>
 
-    </header>
-    <!-- end header -->
+      </header>
+      <!-- end header -->
 
-    <!-- views -->
-    <section ng-view></section>
-    <!-- end views -->
+      <!-- views -->
+      <section ng-view></section>
+      <!-- end views -->
 
-    <!-- footer-->
-    <footer id="map" class="map-dir"></footer>
-    <!-- end footer -->
+      <!-- footer-->
+      <footer id="map" class="map-dir"></footer>
+      <!-- end footer -->
+
+    </div>
+    <!-- end page wrap -->
 
     <!-- angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.js"></script>
