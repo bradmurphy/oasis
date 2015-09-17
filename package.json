@@ -14,6 +14,7 @@
     "gulp4": "npm uninstall gulp -g && npm install gulpjs/gulp-cli#4.0 -g"
   },
   "devDependencies": {
+    "bowser": "^1.0.0",
     "browser-sync": "^2.6.4",
     "browserify": "^5.10.0",
     "browserify-handlebars": "^1.0.0",
