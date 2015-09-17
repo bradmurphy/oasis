@@ -13,10 +13,11 @@ var router = require('./router');
 
 // controllers
 var HomeCtrl = require('./controllers/HomeCtrl');
-var AboutCtrl = require('./controllers/AboutCtrl');
-var ContactCtrl = require('./controllers/ContactCtrl');
+var EtiquetteCtrl = require('./controllers/EtiquetteCtrl');
+var FAQCtrl = require('./controllers/FAQCtrl');
 var MapCtrl = require('./controllers/MapCtrl');
 
 // load images
 var Loader = require('./core/Loader');
 var loader = new Loader(config.manifest);
+

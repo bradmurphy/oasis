@@ -14,14 +14,14 @@ app.config(['$routeProvider',
         controller: 'HomeCtrl'
       })
 
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/etiquette', {
+        templateUrl: 'views/etiquette.html',
+        controller: 'EtiquetteCtrl'
       })
 
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl'
+      .when('/faq', {
+        templateUrl: 'views/faq.html',
+        controller: 'FAQCtrl'
       })
 
       .otherwise({
